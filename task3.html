@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Task 3</title>
+	<link rel="stylesheet" href="task3.css">
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- Knob -->
+	<script src="https://raw.githack.com/aterrien/jQuery-Knob/master/dist/jquery.knob.min.js"></script>
+	<!-- Alertify -->
+	<link rel="stylesheet" href="../alertify/alertify.core.css" />
+	<link rel="stylesheet" href="../alertify/alertify.default.css" />
+	<script src="../alertify/alertify.min.js"></script>
+	<!-- JS -->
+	<script src="rgb.js" defer></script>
+</head>
+<body>
+	<div class="wrapper">
+		<!-- HEADER -->
+		<header>
+			<h1><i><u>ONLINE QUEST</u></i></h1>
+			<h2>Part 3: IMAGE IDENTITY</h2>
+			<article>
+				<p class="slideRules">Описание и правила</p>
+				<div id="rules">
+					<p>
+						<ul>
+							<li>
+								<b>Ребус</b> - квест, в котором вам дается картинка-загадка и нужно проявив смекалку дать правильный ответ
+							</li>
+							<br>
+							<li>
+								<b>Правила:</b>
+								<ul style="margin-left: 40px">
+									<li>Найдите пары одинаковых картинок и переверните их!</li>
+									<li>После завершения вы можете перейти к следующей части квеста!</li>
+								</ul>
+							</li>
+						</ul>
+					</p>
+				</div>
+			</article>
+		</header>
+		
+		<!-- QUEST -->
+		<div class="rebus">
+			<div id="start">
+				Start
+			</div>
+
+			<div class="gameBoard">
+				
+			</div>
+		</div>
+
+		<!-- TIME PROGRESS -->
+		<div class="timeProgress">
+			<p>Time progress:</p>
+			<input type="text" class="time" value="0">
+		</div>
+		
+
+	</div>
+</body>
+</html>
