@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link src = "css.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.js" integrity="sha512-judXDFLnOTJsUwd55lhbrX3uSoSQSOZR6vNrsll+4ViUFv+XOIr/xaIK96soMj6s5jVszd7I97a0H+WhgFwTEg==" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+ <script src="js.js"></script>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div class="wrapper">
+    <h1><i><u>Online Quest</u></i></h1>
+    <h2>Part 1 REBUS</h2>
+    <article>
+        <p class="slideRules">Описание и правила </p>
+        <div class="rules">
+            <p>
+                <ul>
+                    <li>
+                        <b>Ребус</b>-загадка, в которой разгадываемые слова даны в виде рисунков в сочетании с буквами, цифрами и другими знаками.
+                    </li>
+                    <br>
+                    <li>
+                        <b>Правила</b>
+                        <ul style="margin-left: 40px"></ul>
+                        <li>Отгодать пять песен</li>
+                        <li>После завершения вы можете перейти к следущей части квеста!</li>
+                    </li>
+                </ul>
+            </p>
+        </div>
+    </article>
+   </div>
+   <div class="wrapper">
+<div class="rebus"></div>
+<div id="start">start</div>
+</div>
+<div class="sound">
+    <audio src="#" controls id="melody"></audio>
+</div>
+<div class="answerPanel">
+    <input type="text" id="inputRebus" placeholder="Answer...">
+    <input type="button" value="Go" id="btnRebus">
+</div>
+</div>
+
+<div class="taskProgress">
+    <p>taskProgress:</p>
+    <input type="text" class="progress" value="0">
+</div>
+<div class="timeProgress">
+    <p>Task progress</p>
+    <input type="text" class="time" value="0">
+</div>
+<a href="../3/task3.html">
+    <div id="nextTask">
+        <p>Next Task</p>
+    </div>
+</a>
+
+</div>
+</body>
+</html>
